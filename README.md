@@ -1,4 +1,4 @@
-# Blockfreight™ | Transaction Standard
+# Blockfreight™ | Standard Transaction Schema
 
 *The blockchain of global freight.*
 
