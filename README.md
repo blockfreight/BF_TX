@@ -1,4 +1,4 @@
-# Blockfreight™
+# Blockfreight™ | Transaction Standard
 
 *The blockchain of global freight.*
 
