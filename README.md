@@ -1,5 +1,9 @@
-# Blockfreight™ | The blockchain of global freight.
+# Blockfreight™
 
-Blockfreight™ is a blockchain for global freight transactions based of (BFT:XCP) token that takes act as an anti-spam mechanism, and network fee.
+*The blockchain of global freight.*
 
-For more details, see the [Blockfreight Homepage](https://blockfreight.com).
+Blockfreight™ is a blockchain for global freight.
+
+All transactions based of (BFT:XCP) token which act as an anti-spam mechanism and network fee.
+
+For more details, see the [Blockfreight™](https://blockfreight.com).
