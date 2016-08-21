@@ -1,0 +1,130 @@
+{
+    "type": "object",
+    "properties": {
+        "smart_contract_ref": {
+            "type": "object",
+            "properties": {
+                "type": { "type": "string" },
+                "version": { "type": "string" },
+                "reference": { "type": "string" },
+            }
+        },
+        "date": { "type": "string", "format": "date-time" },
+        "page_number": { "type": "number" },
+        "ship_from": {
+            "type": "object",
+            "properties": {
+                "first_name": { "type": "string" },
+                "last_name": { "type": "string" },
+                "address": {
+                    "type": "object",
+                    "properties": {
+                        "street_address": { "type": "string" },
+                        "city": { "type": "string" },
+                        "state": { "type": "string" },
+                        "zip_code": { "type": "number" },
+                        "country": { "type": "string" }
+                    }
+                },
+                "SID": { "type": "number" },
+                "FOB": { "type": "number" }
+            }
+        },
+        "ship_to": {
+            "type": "object",
+            "properties": {
+                "first_name": { "type": "string" },
+                "last_name": { "type": "string" },
+                "address": {
+                    "type": "object",
+                    "properties": {
+                        "street_address": { "type": "string" },
+                        "city": { "type": "string" },
+                        "state": { "type": "string" },
+                        "zip_code": { "type": "number" },
+                        "country": { "type": "string" }
+                    }
+                },
+                "CID": { "type": "number" },
+                "FOB": { "type": "number" }
+            }
+        },
+        "bill_to": {
+            "type": "object",
+            "properties": {
+                "first_name": { "type": "string" },
+                "last_name": { "type": "string" },
+                "address": {
+                    "type": "object",
+                    "properties": {
+                        "street_address": { "type": "string" },
+                        "city": { "type": "string" },
+                        "state": { "type": "string" },
+                        "zip_code": { "type": "number" },
+                        "country": { "type": "string" }
+                    }
+                }
+            }
+        },
+        "special_instructions": { "type": "string" },
+        "BOL_NUM": { "type": "number" },
+        "barcode_space": { "type": "null" },
+        "carrier": {
+            "type": "object",
+            "properties": {
+                "first_name": { "type": "string" },
+                "last_name": { "type": "string" },
+                "SCAC": { "type": "number" },
+                "trail_number": { "type": "number" },
+                "seal_number": { "type": "number" },
+                "pro_number": { "type": "number" },
+                "terms": { "type": "string" },
+                "MAS_BOL_IDC": { "type": "number" }
+            }
+        },
+        "cust_order_info": {
+            "type": "object",
+            "properties": {
+                "order_number": { "type": "number" },
+                "package_number": { "type": "number" },
+                "weight": { "type": "number" },
+                "pallet/slip": { "type": "number" },
+                "additional_info": { "type": "string" },
+                "total_weight": { "type": "number" },
+            }
+        },
+        "carrier_info": {
+            "type": "object",
+            "properties": {
+                "handling_unit": { "type": "number" },
+                "quantity": { "type": "number" },
+                "type": { "type": "number" },
+                "weight": { "type": "number" },
+                "acommodity_desc": { "type": "string" },
+                "hazardous_material_indicator": { "type": "number" },
+                "NMFC_num": { "type": "number" }
+            }
+        },
+        "rec_stamp": { "type": "null" },
+        "dec_value": { "type": "number" },
+        "cod_idc": { "type": "number" },
+        "ship_sig": { "type": "null" },
+        "ship_sig_date": { "type": "string", "format": "date-time" },
+        "trailer_loader": {
+            "type": "object",
+            "properties": {
+                "trail_load_shipper": { "type": "number" },
+                "trail_load_driver": { "type": "number" }
+            }
+        },
+        "freight_counted": {
+            "type": "object",
+            "properties": {
+                "freight_count_shipper": { "type": "number" },
+                "freight_count_driver_pallets": { "type": "number" },
+                "freight_count_driver_pcs": { "type": "number" }
+            }
+        },
+        "carrier_sig_date": { "type": "string", "format": "date-time" }
+    }
+}
